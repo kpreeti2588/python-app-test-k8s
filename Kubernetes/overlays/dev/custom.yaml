@@ -22,6 +22,7 @@ spec:
                 operator: In
                 values:
                 - pyapp
+            topologyKey: topology.kubernetes.io/zone
       containers:
       - name: pyapp
         image: kpreeti0131/pyapp:latest

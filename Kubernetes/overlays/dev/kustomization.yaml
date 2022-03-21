@@ -4,5 +4,6 @@ kind: Kustomization
 resources:
 - ../../base
 - pdb.yaml
+
 patches:
   - custom.yaml
