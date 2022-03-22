@@ -16,4 +16,4 @@
 
 - Created the deployment with 4 replicas. At the time of deployment update, due to poddisruptionbudget policy, only 1 pod will become unavailable, i.e, at least 3 Pods will always be up and running for the application.  <br />
 
--
+- All k8s manifests files are present inside Kubernetes folder.
